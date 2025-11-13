@@ -1,0 +1,78 @@
+body {
+    font-family: sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+h1 {
+    color: #0056b3;
+    margin-bottom: 20px;
+}
+
+#score-area {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #007bff;
+}
+
+#question {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #343a40;
+}
+
+#answer-input {
+    padding: 10px;
+    font-size: 1.1em;
+    width: 80%;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    text-align: center;
+}
+
+#check-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#check-btn:hover {
+    background-color: #218838;
+}
+
+#feedback {
+    margin-top: 20px;
+    font-size: 1.2em;
+    min-height: 25px; /* Keeps layout stable */
+    font-weight: bold;
+}
+
+.correct {
+    color: #28a745; /* Green */
+}
+
+.wrong {
+    color: #dc3545; /* Red */
+}
