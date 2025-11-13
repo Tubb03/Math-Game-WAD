@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Math Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔢 Multiplication Quiz</h1>
+
+        <div id="score-area">
+            Score: <span id="score-display">0</span>
+        </div>
+
+        <h2 id="question">
+            <span id="num1">?</span> x <span id="num2">?</span> =
+        </h2>
+
+        <input type="number" id="answer-input" placeholder="Enter your answer" required>
+
+        <button id="check-btn">Check Answer</button>
+
+        <p id="feedback" class="message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
